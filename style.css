@@ -36,18 +36,21 @@ a:hover {
 
 @media (max-width: 600px) {
     .content {
-        margin: 0 5%; /* 在小屏幕上减少左右边距 */
+        margin: 0 5%;
     }
     .details img {
-        width: 100%; /* 在小屏幕上图片宽度自适应 */
-        max-width: none; /* 取消最大宽度限制 */
+        width: 100%;
+        max-width: none;
     }
     nav {
-        position: relative; /* 在小屏幕上相对定位 */
-        transform: translateY(0); /* 确保导航栏可见 */
+        position: relative;
+        transform: translateY(0);
     }
     nav.show {
-        display: block; /* 确保导航栏在小屏幕上显示 */
+        display: block;
+    }
+    table {
+        font-size: 12px; /* 在移动设备上稍微减小字体大小 */
     }
 }
 
